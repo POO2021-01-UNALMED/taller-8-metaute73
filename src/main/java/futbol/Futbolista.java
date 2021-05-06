@@ -14,7 +14,7 @@ public abstract class Futbolista implements Comparable<Object> {
 		posicion = p;
 	}
 	
-	public String tostring() {
+	public String toString() {
 		return "El futbolista " + this.nombre + " tiene " + this.edad + ", y juega de " + this.posicion;
 		
 	}

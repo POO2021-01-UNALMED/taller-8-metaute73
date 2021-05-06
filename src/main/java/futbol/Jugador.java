@@ -20,7 +20,7 @@ public class Jugador extends Futbolista{
 	public boolean jugarConLasManos() {
 		return false;
 	}
-	public String tostring() {
+	public String toString() {
 		return "El futbolista" + this.getNombre() + " tiene " + this.getEdad() + ", y juega de " + this.getPosicion() +
 				" con el dorsal " + this.dorsal + ".Ha marcado " + this.golesMarcados;
 	}

@@ -8,7 +8,7 @@ public class Portero extends Futbolista{
 		this.golesRecibidos = golesRecibidos;
 		this.dorsal = dorsal;
 	}
-	public String tostring() {
+	public String toString() {
 		return "El futbolista" + this.getNombre() + " tiene " + this.getEdad() + ", y juega de " + this.getPosicion() +
 				" con el dorsal " + this.dorsal + ".Le han marcado " + this.golesRecibidos;
 	}
