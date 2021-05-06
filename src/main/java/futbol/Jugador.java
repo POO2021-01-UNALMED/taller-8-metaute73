@@ -14,8 +14,8 @@ public class Jugador extends Futbolista{
 		this.golesMarcados = golesMarcados;
 		this.dorsal = dorsal;
 	}
-	public int compareTo(Futbolista other){
-		return Math.abs(this.getEdad() - other.getEdad());
+	public int compareTo(Object other){
+		return Math.abs(this.getEdad() - ((Futbolista)other).getEdad());
 	}
 	public boolean jugarConLasManos() {
 		return false;
